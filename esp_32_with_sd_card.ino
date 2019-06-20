@@ -1,16 +1,13 @@
 /*
  * Connect the SD card to the following pins:
  *https://github.com/MAINAKMONDAL98
- * SD Card | ESP32
- *    D2       -
- *    D3       SS
- *    CMD      MOSI
- *    VSS      GND
- *    VDD      3.3V
- *    CLK      SCK
- *    VSS      GND
- *    D0       MISO
- *    D1       -
+ * ESP WROOM 32 | SD CARD
+ *     D5         CS
+ *     D18        SCK
+ *     D23        MOSI
+ *     D19        MISO
+ *     VIN        VCC
+ *     GND        GND
  */
 #include "FS.h"
 #include "SD.h"
